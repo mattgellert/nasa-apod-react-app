@@ -5,7 +5,7 @@ import './Home.css'
 const Home = () => {
   return (
     <div className="photos-container">
-      <NavBar handleSubmit={this.searchHandler} home='true'/>
+      <NavBar home='true'/>
       <div className="home-display">
         <div className="spacer"/>
         <div className="home-description">
