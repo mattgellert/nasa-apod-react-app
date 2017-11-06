@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .image-flexbox-container {
+      display: flex;
+      flex-direction: row;
+    }
+    .image-spacer {
+      flex: 1;
+    }
+    .image-results {
+      flex: 3;
+    }
+    .image-results-wrapper div {
+
+    }
+    .image-results div {
+      padding: 10px;
+      background-color: #e8eef7;
+      /*border: 1px solid #a8abaf;*/
+      box-shadow: 10px 10px 5px #888888;
+
+    }
+    .image-results h2 {
+      text-align: center;
+    }
+    .image-results figure {
+      text-align: center;
+      color: #a8abaf;
+    }
+    .image-results p {
+      text-align: center;
+    }
+    .bottom {
+      text-align: center;
+      padding-top: 30px;
+    }
+  </style>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <title>NYT Article Search & Dictionary</title>
+  </head>
+  <body>
+
+    <div class="image-search">
+      <h1>NASA Images Search</h1>
+      <div class="wrapper">
+        <form id="image-search-form" class="">
+          Day: <input type="text" id="image-search-box-day" maxlength="2">
+          Month: <input type="text" id="image-search-box-month" maxlength="2">
+          Year: <input type="text" id="image-search-box-year" maxlength="4">
+          <input type="submit" id="submit">
+        </form>
+      </div>
+    </div>
+
+    <div class="num-results"><h4></h4></div>
+
+    <br></br>
+
+    <div class="image-flexbox-container">
+      <div class="image-spacer"></div>
+      <div class="image-results"></div>
+      <div class="image-spacer"></div>
+    </div>
+    <div class="bottom"></div>
+
+    <script src="index2.js"></script>
+  </body>
+</html>

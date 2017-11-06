@@ -1,0 +1,74 @@
+.photo-card-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.button {
+  flex: 1;
+  margin: auto;
+}
+
+.photo-card-wrapper {
+  flex: 8;
+  margin: auto;
+  height: 800px;
+}
+
+.photo-card {
+  margin: 0 300px;
+  background: #0f1924;
+  height: 100%;
+  opacity: 0.5;
+  overflow: scroll;
+  box-shadow: 8px 8px 6px rgba(0, 0, 0, 0.3);
+}
+
+.prev-button, .next-button {
+  height: 100px;
+}
+
+.prev-button {
+  margin-left: 20px;
+}
+
+.next-button {
+  margin-right: 20px;
+}
+
+.image {
+  border: 1px solid #fbfbfb;
+  box-shadow: 1px 2px 6px rgba(255, 255, 255, 0.9);
+  display: block;
+  margin: auto;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.image-wrapper {
+  text-align: center;
+}
+
+.copyright {
+  color: #fbfbfb;
+  font-family: Arial;
+  margin-top: 20px;
+}
+
+.explanation {
+  font-size: 20px;
+  color: #fbfbfb;
+  font-family: Arial;
+  line-height: 1.5;
+  margin: 50px;
+}
+
+.title {
+  text-align: center;
+  color: #fbfbfb;
+  font-family: Arial;
+}
+
+.photo-info {
+  padding: 20px;
+  transition: opacity;
+}

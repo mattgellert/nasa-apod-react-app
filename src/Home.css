@@ -1,0 +1,24 @@
+.home-display {
+  display: flex;
+  flex-direction: row;
+  margin-top: 200px;
+}
+
+.spacer {
+  flex: 0.5
+}
+
+.home-description {
+  flex: 1;
+  color: #fbfbfb;
+  font-family: Arial;
+  text-align: center;
+}
+
+.home-description p {
+  font-size: 24px;
+}
+
+.home-description h1 {
+  font-size: 40px;
+}

@@ -1,0 +1,53 @@
+div.Nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+div.Nav li {
+  float: right
+}
+
+div.Nav li a {
+  display: block;
+  padding: 8px;
+
+  background-color: #dddddd;
+}
+
+.Nav {
+  background: #0e394e;
+  height: 60px;
+}
+
+.active {
+  color: green;
+}
+
+.nav-elements {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.left {
+  flex: 0 0 50%;
+}
+
+.right {
+  display: flex;
+  flex: 0 0 50%;
+  justify-content: flex-end;
+}
+
+.tab {
+  margin: auto 20px;
+}
+
+.link {
+  font-family: Arial;
+  font-size: 18px;
+  text-decoration: unset;
+  color: #fbfbfb;
+}
